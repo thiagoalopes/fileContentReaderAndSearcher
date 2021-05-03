@@ -33,7 +33,7 @@ public final class IndexerRepository {
 
 	@Value("${highlight.html.format}")
 	private String highlightHtmlFormat;
-	private final String REPOSITORY_PATH = "src/main/resources/repository";
+	private final String REPOSITORY_PATH = "/home/thiagolopes/repositorio";
 	
 	@Value("${reindex.time}")
 	private int reidexTimeIntervalInSeconds;
